@@ -4,7 +4,7 @@ const StudyMaterial = require('../models/StudyMaterial');
 exports.createStudyMaterial = async (req, res) => {
   try {
     const { userId, materialName, materialDescription } = req.body;
-    const studyMaterialDocument = req.file ? req.file.path : null;
+    const studyMaterialDocument = req.file ? req.file.path :"https://www.w3schools.com/python/default.asp";
 
     const material = new StudyMaterial({
       userId,
