@@ -2,10 +2,11 @@
   "name": "hackathon_xavier_clg_elites_bn",
   "version": "1.0.0",
   "main": "index.js",
- "scripts": {
-  "start": "node index.js",
-  "dev": "nodemon index.js"
-},  "repository": {
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "repository": {
     "type": "git",
     "url": "git+https://github.com/CastroRSJeev/Hackathon_Xavier_Clg_ELITES_BN.git"
   },
@@ -26,6 +27,7 @@
     "mongoose": "^8.18.1"
   },
   "devDependencies": {
+    "migrate-mongo": "^12.1.3",
     "nodemon": "^3.1.10"
   }
 }
