@@ -1,0 +1,31 @@
+{
+  "name": "hackathon_xavier_clg_elites_bn",
+  "version": "1.0.0",
+  "main": "index.js",
+ "scripts": {
+  "start": "node index.js",
+  "dev": "nodemon index.js"
+},  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CastroRSJeev/Hackathon_Xavier_Clg_ELITES_BN.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/CastroRSJeev/Hackathon_Xavier_Clg_ELITES_BN/issues"
+  },
+  "homepage": "https://github.com/CastroRSJeev/Hackathon_Xavier_Clg_ELITES_BN#readme",
+  "description": "",
+  "dependencies": {
+    "bcryptjs": "^3.0.2",
+    "cors": "^2.8.5",
+    "dotenv": "^17.2.2",
+    "express": "^5.1.0",
+    "jsonwebtoken": "^9.0.2",
+    "mongoose": "^8.18.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.10"
+  }
+}
